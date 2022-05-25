@@ -1,0 +1,11 @@
+time	bytes	url
+Get "https://Facebook.com": read tcp 192.168.1.79:50541->157.240.205.35:443: wsarecv: An existing connection was forcibly closed by the remote host.
+Get "https://Twitter.com": read tcp 192.168.1.79:50540->104.244.42.193:443: wsarecv: An existing connection was forcibly closed by the remote host.
+0.3355926	  16651	https://Google.com
+0.4420544	 645951	https://Youtube.com
+0.4935287	  75132	https://Wikipedia.org
+0.6542641	 611557	https://pornhub.com
+0.6914314	 108519	https://xvideos.com
+1.1869828	    173	https://Baidu.com
+1.3892759	 729463	https://Yahoo.com
+Get "https://Instagram.com": dial tcp 31.13.72.174:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
