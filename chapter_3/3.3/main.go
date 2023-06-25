@@ -18,7 +18,7 @@ const (
 var sin30, cos30 = math.Sin(angle), math.Cos(angle)
 
 func main(){
-	f, _ := os.Create("task3.svg")
+	f, _ := os.Create("task33.svg")
 	s := fmt.Sprintf("<svg xmlns='http://w3.org/2000/svg' "+
 "style='stroke: grey; fill:white; stroke-width: 0.7' " +
 "width='%d' height='%d'>", width, height)

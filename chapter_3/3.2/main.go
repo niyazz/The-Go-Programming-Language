@@ -18,7 +18,7 @@ const (
 var sin30, cos30 = math.Sin(angle), math.Cos(angle)
 
 func main(){
-	f, _ := os.Create("task3.txt")
+	f, _ := os.Create("task32.txt")
 	s := fmt.Sprintf("<svg xmlns='http://w3.org/2000/svg' "+
 "style='stroke: grey; fill:white; stroke-width: 0.7' " +
 "width='%d' height='%d'>", width, height)
@@ -74,7 +74,6 @@ func f(x, y float64) float64{
 // Task 3.2: go run .
 // Поэкспериментируйте с визуализациями других функций из пакета math. 
 // Сможете ли вы получить изображения наподобие коробки для яиц, седла или холма
-
 func eggsBox(x, y float64) float64{
 	a := 3.0
 	b := 25.0
